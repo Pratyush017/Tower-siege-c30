@@ -1,7 +1,9 @@
-class Box extends BaseClass {
-  constructor(x, y, width, height){
-    super(x,y,width,height);
-    this.image = loadImage("box.png");
+class Box extends BaseClass{
+  constructor(x, y) {
+    super(x,y,50,50);
   }
 
+  display(){
+    super.display();
+  }
 };

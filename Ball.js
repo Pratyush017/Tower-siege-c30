@@ -5,8 +5,10 @@ class Ball extends BaseClass {
   }
 
   display() {
-   /* this.body.position.x = mouseX;
-    this.body.position.y = mouseY;*/
+    /*push();
+    imageMode(CENTER);
+    image( this.image,0, 0, 50,50);
+    pop();*/
     super.display();
 
   }
