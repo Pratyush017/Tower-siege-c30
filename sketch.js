@@ -13,21 +13,21 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
      
-    box1 = new Box(500,450);
-    box2 = new Box(600,450  );
-    box3 = new Box(700,450  );
-    box4 = new Box(800,450  );
-    box5 = new Box(900,450  );
-    box6 = new Box(550,400  );
-    box7 = new Box(650,400  );
-    box8 = new Box(750,400  );
-    box9 = new Box(850,400  );
-    box10 = new Box(600,350  );
-    box11 = new Box(700,350  );
-    box12 = new Box(800,350  );
-    box13 = new Box(650,300  );
-    box14 = new Box(750,300  );
-    box15 = new Box(700,250  );
+    box1 = new Bo(500,450,50,50);
+    box2 = new Box(600,450,50,50);
+    box3 = new Boxes(700,450,50,50);
+    box4 = new Bo(800,450,50,50);
+    box5 = new Box(900,450,50,50);
+    box6 = new Box(550,400,57,57);
+    box7 = new Boxes(650,400,57,57);
+    box8 = new Box(750,400,57,57);
+    box9 = new Boxes(850,400,57,57);
+    box10 = new Bo(600,350,53,53);
+    box11 = new Bo(700,350,53,53);
+    box12 = new Boxes(800,350,53,53);
+    box13 = new Box(650,300,57,57);
+    box14 = new Bo(750,300,57,57);
+    box15 = new Boxes(700,250,53,53);
     
     platform2 = new Platform(200,600,200,300);
     platform = new Platform(700,500,500,10);
