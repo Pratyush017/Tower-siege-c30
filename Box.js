@@ -26,11 +26,12 @@ class Box {
     pop();
     }
      else{
-      World.remove(world, this.body);
       push();
           this.Visiblity = this.Visiblity - 0.1;
           fill(this.Visiblity);
           pop();
+          World.remove(world, this.body);
+          
       }
     }
     
